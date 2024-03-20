@@ -26,4 +26,8 @@ run bash script with intrepreter on it
 if permission denied, give it permission
 `chmod u+x [script name.sh]`
 
+overwrite to file
+`echo [text] > [file name.txt]`
 
+append to file
+`echo [text] >> [file name.txt]`
