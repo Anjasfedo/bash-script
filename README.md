@@ -31,3 +31,20 @@ overwrite to file
 
 append to file
 `echo [text] >> [file name.txt]`
+
+word count
+`wc -w [file name.txt]`
+
+word count redirect input
+`wc -w < [file name.txt]`
+
+EOF
+`cat << EOF`
+then close with
+`EOF`
+
+input redirect triple less
+`wc -w <<< ["any string"]`
+
+code equal
+`[ [a] = [b] ]` or `[ [a] -eq [b] ]`
