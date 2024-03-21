@@ -48,3 +48,17 @@ input redirect triple less
 
 code equal
 `[ [a] = [b] ]` or `[ [a] -eq [b] ]`
+
+create array
+`VARIABLE = (one two three four five)`
+
+print all data on array
+`echo ${VARIABLE[@]}`
+
+print index data
+`echo ${VARIABLE[0]}`
+
+for loop
+`for item in ${VARIABLE[@]}; do echo -n $item | wc -c; done`
+
+
