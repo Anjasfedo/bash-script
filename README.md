@@ -61,4 +61,14 @@ print index data
 for loop
 `for item in ${VARIABLE[@]}; do echo -n $item | wc -c; done`
 
+awk print positional file
+`awk '{print $1}' [file name.txt]`
 
+awk print csv file
+`awk -F, '{print $1} [csv file name.csv]'`
+
+sed to replace text
+`sed 's/[file to replace]/[replace to]/g' [file name.txt]`
+
+create backup file with sed
+`sed -i.ORIGINAL 's/[file to replace]/[replace to]/g' [file name.txt]`
